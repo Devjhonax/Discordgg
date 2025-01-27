@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(/folder/image/Header\ Background.svg);
+    background-image: url(folder/image/Header\ Background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -112,7 +112,7 @@ footer img {
 
 @media screen and (min-width: 950px) {
     header {
-        background-image: url(/folder/image/Header\ Background.png);
+        background-image: url(folder/image/Header\ Background.png);
         background-size: cover;
         display: flex;
         align-items: center;
