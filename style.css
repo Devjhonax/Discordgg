@@ -148,6 +148,8 @@ footer img {
         justify-content: center;
         align-items: center;
         gap: 17px;
+
+        perspective: 700px;
     }
 
     section h2 {
@@ -196,5 +198,18 @@ footer img {
 
     footer img {
         width: 230px;
+    }
+    
+    section img:hover {
+        transform: rotatey(30deg);
+        transition: 0.4s;
+    }
+
+    #secao:hover img {
+        transform: rotatey(-30deg);
+    }
+
+    #secao2:hover img {
+        transform: rotatex(30deg);
     }
 }
